@@ -25,6 +25,27 @@ body {
   overflow-x: hidden;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* ===================== NAVBAR ===================== */
 #navbar {
   position: fixed;
@@ -439,6 +460,12 @@ section { padding: 90px 0; }
 #testimonials .section-title { color: #fff; }
 #testimonials .section-sub   { color: rgba(255,255,255,.65); }
 #testimonials .section-tag   { background: rgba(255,255,255,.12); color: var(--green-glow); }
+
+#testimonials .swiper-slide {
+  background: rgba(255, 255, 255, .07);
+  border-radius: 20px;
+}
+
 .review-card {
   background: rgba(255,255,255,.07);
   border: 1px solid rgba(255,255,255,.12);
