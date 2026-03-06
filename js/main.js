@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     errorBox.classList.remove('show');
 
     try {
-      const API_URL = 'https://aas-api-i8if.onrender.com/contact';
+      const API_URL = 'https://aas-api-i8if.onrender.com/contact.php';
       const res  = await fetch(API_URL, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
